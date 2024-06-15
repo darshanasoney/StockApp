@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187B31482C1D9337007D94DA /* StockDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B31472C1D9337007D94DA /* StockDetailController.swift */; };
 		18F079252C12CCDF00AC7952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F079242C12CCDF00AC7952 /* AppDelegate.swift */; };
 		18F079292C12CCDF00AC7952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F079282C12CCDF00AC7952 /* ViewController.swift */; };
 		18F0792C2C12CCDF00AC7952 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18F0792B2C12CCDF00AC7952 /* Base */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		187B31472C1D9337007D94DA /* StockDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailController.swift; sourceTree = "<group>"; };
 		18F079212C12CCDF00AC7952 /* StockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F079242C12CCDF00AC7952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F079282C12CCDF00AC7952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				18F079242C12CCDF00AC7952 /* AppDelegate.swift */,
 				18F079282C12CCDF00AC7952 /* ViewController.swift */,
+				187B31472C1D9337007D94DA /* StockDetailController.swift */,
 				18F079382C12CD4300AC7952 /* Services.swift */,
 				18F0793A2C12CF2B00AC7952 /* Stocks.swift */,
 				18F0793C2C12D3B500AC7952 /* Cell.swift */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F079292C12CCDF00AC7952 /* ViewController.swift in Sources */,
+				187B31482C1D9337007D94DA /* StockDetailController.swift in Sources */,
 				18F079392C12CD4300AC7952 /* Services.swift in Sources */,
 				18F0793E2C12D3B500AC7952 /* Cell.swift in Sources */,
 				18F0793B2C12CF2B00AC7952 /* Stocks.swift in Sources */,
