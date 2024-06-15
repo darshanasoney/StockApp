@@ -84,6 +84,7 @@ extension ViewController : UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(self.allStocks[indexPath.row].sid ?? "")
         if let vc = self.storyboard?.instantiateViewController(identifier: "StockDetailController") as? StockDetailController {
             vc.stock = self.allStocks[indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
