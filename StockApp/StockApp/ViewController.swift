@@ -68,7 +68,7 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController : UITableViewDataSource {
+extension ViewController : UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.allStocks.count
@@ -81,6 +81,10 @@ extension ViewController : UITableViewDataSource {
         }
         
         return UITableViewCell()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(self.allStocks[indexPath.row].sid ?? "")
     }
     
 }
