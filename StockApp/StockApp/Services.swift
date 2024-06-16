@@ -18,7 +18,7 @@ final class Services {
     static let instance = Services()
     
     
-    let url = "https://api.tickertape.in/stocks/quotes?sids=RELI%2CTCS%2CITC%2CHDBK"
+    let url = ""
     
     private init() {}
     
